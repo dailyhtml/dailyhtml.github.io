@@ -1,0 +1,50 @@
+body {
+    overflow: scroll;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    line-height: 3;
+    text-align: center;
+    transition: 1s;
+}
+
+#scrollday {
+    width: 5vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.btn {
+    position: relative;
+    height: 50vh;
+    width: 5vw;
+}
+
+.day {
+    width: 95vw;
+    height: 100vh;
+    position: relative;
+    overflow: scroll;
+    margin: 0%;
+}
+
+#DAY0 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    line-height: 4;
+    text-align: center;
+    color: black;
+    transition: 1s;
+}
+
+#DAY0 p:hover {
+    transform: scale(0.99);
+    transition: 1s;
+}
+
+#imgday1 {
+    width: 100%;
+}
